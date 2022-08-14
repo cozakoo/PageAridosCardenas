@@ -1,0 +1,1 @@
+.contenedor{width:90%;margin:40px auto;padding:20px;border:3;border-color:black;border-style:solid}.objeto{width:100px;height:100px;background:black;transition-property:all;transition-duration:4s}.contenedor:hover .objeto{transform:translate(700px);background-color:red;border-radius:50%}
