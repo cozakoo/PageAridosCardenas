@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="src/icono.png" />
+    <title>Aridos Cardenas</title>
+  </head>
+  <body>
+    <!--
+      ========================================================
+      							HEADER
+      ========================================================
+      -->
+    <header>
+      <nav class="navbar" style="background-color: #0095ff">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="src/icon.jpg"
+              alt=""
+              width="300"
+              height="100"
+              class="d-inline-block align-text-top"
+            />
+            Bootstrap
+          </a>
+        </div>
+      </nav>
+
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#SobreNosotros">SOBRE NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FOTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">CONTACTOS</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--
+      ========================================================
+      							CARRUSEL DE IMAGENES
+      ========================================================
+      -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="true"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="src/1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="src/1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="src/1.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--
+      ========================================================
+      							CARDS
+      ========================================================
+      -->
+    <br />
+    <h1><center>Descubre nuestros rubros</center></h1>
+    <!-- PRIMERA TARJETA -->
+
+    <div class="container mt-2">
+      <div class="row">
+        <!-- PRIMERA TARJETA -->
+        <div class="col-12 col-md-4 mt-5">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="src/aridos_.jpg"
+              alt="aridos en Chilé, estabilizado, revuelto"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Venta de Áridos</h5>
+              <p class="card-text">
+                Descubre los tipos de áridos que disponemos y a las localidades
+                a la cuales alcanzamos
+              </p>
+              <a href="#" class="btn btn-outline-info">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SEGUNDA TARJETA -->
+        <div class="col-12 col-md-4 mt-5">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="src/arriendo_de_maquinaria.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Arriendo de Maquinaria y Camiones</h5>
+              <p class="card-text">aadsdas</p>
+              <a href="#" class="btn btn-outline-info">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mt-5">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="src/Manguera-Hidraulica.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Fabricación y Reparación de mangueras hidraulicas
+              </h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-outline-info">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 mt-5">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="src/solidaridad-mecanica-y-organica-og.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Reparación y Mantención de Maquinarías y Equipos Industriales
+              </h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-outline-info">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mt-5">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="src/aeites.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Venta de aceites y grasas</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-outline-info">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 mt-5">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="src/neumatico.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Venta de Neumaticos y Camaras</h5>
+              <p class="card-text">
+                Contamos con neumatico para camiones y para excavadora y camaras
+                para retroexcavadora
+              </p>
+              <a href="#" class="btn btn-outline-info">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--
+      ========================================================
+      							SOBRE NOSOTROS
+      ========================================================
+      -->
+      <div class="row mt-5">
+        <div class="col-12 col-md-9">
+          <a name="SobreNosotros"> <h2>Sobre Nosotros</h2></a>
+          <p>
+            Áridos Cárdenas es una empresa destinada a la venta de aridos a
+            traves de algunas localidades de Chiloé
+          </p>
+
+          <div>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-outline-dark">Dark</button>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 mt-5 mt-md-0">
+          <img src="./img/html5.jpg" class="img-fluid rounded-top" />
+        </div>
+      </div>
+
+      <div class="row justify-content-center mt-5 pb-5">
+        <div class="col-12 col-md-7">
+          <h2>Manda un mail</h2>
+          <input type="text" class="form-control" />
+          <input type="text" class="form-control" />
+          <textarea name="" class="form-control"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <main class="mobile-center">
+      <section>
+        <div class="container hr well1 ins2">
+          <div class="row">
+            <div class="grid_6">
+              <div class="video">
+                <iframe src="videos/hidromann.mp4" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="grid_6">
+              <h2>Datos Empresa</h2>
+              <div class="row">
+                <div class="grid_3">
+                  <dl class="info">
+                    <dt>Razon Social</dt>
+                    <dd>Insumos Hidraulicos Hidro-Mann SPA</dd>
+                    <dt>Rut</dt>
+                    <dd>77.271.360-6</dd>
+                    <dt>Giro</dt>
+                    <dd>
+                      Importacion, Distribucion, Venta y Comercializacion de
+                      Repuestos Industriales
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="well1 ins3">
+        <div class="container">
+          <h2>¿Quienes Somos?</h2>
+          <div class="row off1">
+            <div class="grid_6">
+              <p>
+                Insumos Hidráulicos Hidro-Mann SPA está presente desde 1999, con
+                una trayectoria que nos ha entregado años de experiencia
+                importando, distribuyendo, comercializando y fabricando nuestros
+                productos a lo largo de Chile. Actualmente contamos con una de
+                las más completas gamas de componentes y accesorios para
+                conectar, accionar y controlar sistemas oleohidráulicos y
+                neumáticos.
+              </p>
+              <br />
+              <p>
+                Ubicada en la ciudad de Los Ángeles, Octava Región, Provincia
+                del Bío-Bío, somos especialistas en la fabricación de flexibles
+                oleohidráulicos, adaptadores, sellos y fittings para Baja,
+                Mediana, Alta y Extrema presión; Con el afán de un mejoramiento
+                continuo hemos incorporado a nuestra línea de productos y
+                servicio la confección y reparación de cilindros oleohidráulicos
+                con amplio stock de barras cromadas, tubo bruñidos y sellos de
+                importación directa desde fabrica.
+              </p>
+              <br />
+              <p>
+                Contamos con Instalaciones aptas para entregar servicios de
+                mantención y/o reparación de todo tipo de maquinaria (liviana y
+                pesada).
+              </p>
+              <hr />
+              <h3>¿Que Ofrecemos?</h3>
+              <div class="row">
+                <div data-wow-delay="0.2s" class="grid_3 wow fadeInLeft">
+                  <img src="images/Bodega1.jpg" alt="" />
+                </div>
+                <div class="grid_3 wow fadeInLeft">
+                  <img src="images/Torno%20CNG.jpg" alt="" />
+                </div>
+              </div>
+              <p>
+                Contamos con una amplia gama de productos hidraulicos y
+                olehidraulicos de la mejor calidad, servicio de calidad a toda
+                hora para satisfacer sus necesidades, una calidad de servicio de
+                primera enfocado en todo lo que usted busca en cuanto a sus
+                espectativas.
+              </p>
+              <br />
+              <p>
+                Ademas de tener todo lo necesario en cuanto a maquinas e
+                intrumentacion de la mas alta gama, HIDROMANN SPA, tiene su
+                propia maestranza para que pueda realizar sus trabajos sin tener
+                que buscar en distintos lugares.
+              </p>
+              <hr />
+            </div>
+            <div class="grid_6">
+              <h3>Nuestro Equipo de Trabajo</h3>
+              <div class="row">
+                <div class="grid_2 wow fadeInRight">
+                  <img src="images/equipo/1.jpg" alt="" /><img
+                    src="images/equipo/2.jpg"
+                    alt=""
+                  />
+                </div>
+                <div data-wow-delay="0.2s" class="grid_2 wow fadeInRight">
+                  <img src="images/equipo/3.jpg" alt="" /><img
+                    src="images/equipo/4.jpg"
+                    alt=""
+                  />
+                </div>
+                <div data-wow-delay="0.4s" class="grid_2 wow fadeInRight">
+                  <img src="images/equipo/5.jpeg" alt="" /><img
+                    src="images/equipo/6.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <p>
+                Contamos con un gran equipo profesional que distribuye,
+                confecciona, ensambla y comercializa nuestros productos,
+                disponemos de una amplia capacidad de servicio que nos permite
+                cubrir cualquier necesidad de nuestros clientes. Comprometidos
+                en un 100% con usted, implementamos un sistema de atención de
+                24/7 para nuestros clientes con Cuenta Corriente.
+              </p>
+              <hr />
+              <h3>Porque Confiar en Nostros</h3>
+              <p>
+                Gracias a que contamos con un gran equipo de profesionales que
+                distribuye, confecciona, ensambla y comercializa nuestros
+                productos, disponemos de una amplia capacidad de servicio que
+                nos permite cubrir cualquier necesidad de nuestros clientes.
+                Comprometidos en un 100% con usted, implementamos un sistema de
+                atención de 24/7 para nuestros clientes con Cuenta Corriente.
+              </p>
+              <div id="row">
+                <center>
+                  <img src="images/certificacion2015.png" alt="" />
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--<section class="well1 ins3 bg-primary">
+          <div class="container">
+            <h2>Nuestras Certificaciones</h2>
+              <p>Insumos Hidráulicos HIDRO-MANN SPA se encuentra totalmente certificada, lo que nos califica como una gran empresa especialista en lo que realizamos, y que pueda dejar su confianza en nuetsras manos.
+                </p>
+              <div class="container1">
+                <div class="slideshow">      
+                    <img src="images/iso20081.jpg" alt="ISO_2008_1" width="450" height="200" class="zoom">
+                    <img src="images/iso20082.jpg" alt="ISO_2008_2" width="450" height="200"class="zoom">
+                    <img src="images/ISO2015.jpg"  alt="ISO_2015"   width="450" height="200"class="zoom">
+                    <img src="images/CARTACONFORMIDAD.JPG" alt="CARTA" width="450" height="200"class="zoom">
+                </div>
+                <img src="images/izquierda.png" alt="anterior" width="50" height="50" class="previous">
+                <img src="images/derecha.png"   alt="siguiente" width="50" height="50"class="next">
+              </div>
+            <!--<ul class="product-list row off1">
+              <li class="grid_6">
+                <div class="grid_4">
+                    <img src="images/ISO2015.jpg" alt="">
+                </div>
+              </li>
+              <li class="grid_6">
+                <div class="grid_4">
+                    <img src="images/iso20081.jpg" alt="">
+                </div>
+              </li>
+              <li class="grid_6">
+                <div class="grid_4">
+                    <img src="images/iso20082.jpg" alt="">
+                </div>
+              </li>
+                
+            </ul>
+          </div>
+        </section>-->
+      <section class="well1">
+        <div class="container">
+          <div class="row">
+            <div class="grid_4">
+              <h2>Nuestra Mision</h2>
+              <p>
+                Es proveer componentes y servicios oleohidráulicos y neumáticos,
+                del más alto estándar de calidad, para toda la industria
+                nacional con eficiencia, seguridad y respeto al medio ambiente,
+                para de esta forma contribuir al éxito de las operaciones de
+                nuestros clientes.
+              </p>
+            </div>
+            <div class="grid_4">
+              <h2>Nuestra Vision</h2>
+              <p>
+                Es satisfacer en forma integral todas las necesidades de
+                componentes y servicios oleohidráulicos y neumáticos de nuestros
+                clientes, llegando a ser reconocidos como el principal proveedor
+                a nivel nacional.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--
+      ========================================================
+      							FOOTER
+      ========================================================
+      -->
+    <footer>
+      <address>
+        Autor: Bartolomé Sintes Marco<br />
+        correo: bartolome.sintes@example.com
+      </address>
+
+      <p>Última modificación: 28 de noviembre de 2017</p>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

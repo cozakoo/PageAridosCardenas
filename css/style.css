@@ -1,0 +1,19 @@
+body{
+    background-color: #E2DCC8 ;
+}
+
+header{
+    background-color:#000000;
+}
+
+.card:hover{
+    transition-property: all; /*Con esta propiedad le indico que todas las propiedades tendran un efecto de transición */
+    transition-duration: 0.5s;
+    transform: translateY(-25px);
+    /* transform: scale(1.05);  */
+}
+
+.card{
+    width: 95%;
+    height: 99%;
+}
