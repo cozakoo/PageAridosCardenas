@@ -1,19 +1,52 @@
-body{
-    background-color: #E2DCC8 ;
+body {
+  background-color: #e2dcc8;
 }
 
-header{
-    background-color:#000000;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  z-index: 999
 }
 
-.card:hover{
-    transition-property: all; /*Con esta propiedad le indico que todas las propiedades tendran un efecto de transición */
-    transition-duration: 0.5s;
-    transform: translateY(-25px);
-    /* transform: scale(1.05);  */
+li {
+    float: left;
 }
 
-.card{
-    width: 95%;
-    height: 99%;
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: rgba(0,0,0.3);
+}
+
+.activate {
+    background-color: #4caf50;
+}
+
+/* header { */
+  /* background-color:#f10808; */
+/* } */
+
+.card:hover {
+  transition-property: all; /*Con esta propiedad le indico que todas las propiedades tendran un efecto de transición */
+  transition-duration: 0.5s;
+  transform: translateY(-25px);
+  /* transform: scale(1.05);  */
+}
+
+.card {
+  width: 95%;
+  height: 99%;
 }
